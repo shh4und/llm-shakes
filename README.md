@@ -1,6 +1,6 @@
-# DeepFake Shakespeare: O Teatro que Nunca Existiu
+# DeepFake Shakespeare
 
-## 🧑‍💻ALUNOS:
+## 🧑‍💻 ALUNOS:
 - ALEXANDER NUNES SOUZA
 - ISAAC LEVI LIRA DE OLIVEIRA
 - LAILA MARIA ALVES SANTOS
@@ -11,10 +11,11 @@
 DeepFake Shakespeare é um gerador de textos literários que usa inteligência artificial para criar obras no estilo do dramaturgo William Shakespeare. O sistema emprega modelos de linguagem avançados com fine-tuning dedicado para capturar os elementos linguísticos, estruturais e estilísticos característicos das obras do bardo inglês, criando peças, monólogos e cenas que Shakespeare nunca escreveu, mas que poderiam ter existido.
 
 ## ✨ Recursos Principais
-Geração de Texto Shakespeariano: Crie cenas, monólogos e peças inteiras no estilo autêntico de Shakespeare
+Geração de Texto Shakespeariano: Crie cenas, monólogos no estilo autêntico de Shakespeare
 Análise de Autenticidade: Avaliação detalhada da qualidade "shakespeariana" do texto gerado
 Visualização de Cenas: Geração de imagens que representam visualmente as cenas criadas
 Personalização: Defina temas, número de personagens e tipo de texto desejado
+
 ## 🔧 Detalhes Técnicos
 ### Modelos e Fine-tuning
 O projeto utiliza modelos de linguagem GPT com fine-tuning especializado em textos shakespearianos. Cinco variantes foram treinadas e comparadas:
