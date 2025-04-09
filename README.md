@@ -54,30 +54,28 @@ Os dados foram processados para criar exemplos de treinamento que preservam a es
 
 ```
 # Clone o repositório
-git clone https://github.com/seu-usuario/deepfake-shakespeare.git
-cd deepfake-shakespeare
+git clone https://github.com/shh4und/llm-shakes.git
 
 # Instale as dependências
-pip install -r requirements.txt
+pip install install kagglehub[pandas-datasets] gradio openai
 
-# Configure sua chave de API da OpenAI
-export OPENAI_API_KEY='sua-chave-api'
+# Configure sua chave de API da OpenAI em seu ambiente (exemplo Google Colab):
+from google.colab import userdata
+key = userdata.get('openAIkey')
+from openai import OpenAI
+client = OpenAI(api_key=key)
 ```
 
 ### 🚀 Como Usar
 Interface Web (Gradio)
 ```
-from app import criar_aplicacao_shakespeare
-
 # Iniciar a aplicação
 demo = criar_aplicacao_shakespeare()
 demo.launch()
 ```
 
-Uso Programático
+Uso Programático no Jupyter Notebook / Colab
 ```
-from shakespeare_ai import gerar_texto_shakespeare, analisar_estilo_shakespeare
-
 # Gerar um monólogo sobre a Revolução Industrial
 texto = gerar_texto_shakespeare(
     tema="A Revolução Industrial", 
